@@ -1,12 +1,5 @@
 #My TicTacToe Game
 
-def main():
-# The main function
-    introduction = intro()
-    board = create_grid()
-    pretty = printPretty(board)
-    symbol_1, symbol_2 = sym()
-    full = isFull(board, symbol_1, symbol_2) # The function that starts the game is also in here.
     
 
     
