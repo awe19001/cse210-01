@@ -56,7 +56,7 @@ class Director:
         """
         if not self.is_playing:
             return 
-        
+
         for i in range(len(self.dice)):
             die = self.dice[i]
             die.roll()
@@ -80,4 +80,3 @@ class Director:
         print(f"You rolled: {values}")
         print(f"Your score is: {self.total_score}\n")
         self.is_playing == (self.score > 0)
-        self.score = 0
