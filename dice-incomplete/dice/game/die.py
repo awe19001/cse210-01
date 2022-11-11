@@ -1,6 +1,5 @@
 import random
 
-
 # TODO: Implement the Die class as follows...
 
 # 1) Add the class declaration. Use the following class comment.
@@ -14,6 +13,7 @@ class Die:
         value (int): The number of spots on the side facing up.
         points (int): The number of points the die is worth.
     """
+       
 
 # 2) Create the class constructor. Use the following method comment.
 def __init__(self):
