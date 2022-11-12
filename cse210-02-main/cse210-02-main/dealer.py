@@ -65,12 +65,15 @@ class Dealer:
 
             if (self.player.get_score() > 0):
                 play_again = input("Play again? [y/n] ")
+                print("   ")
             else:
                 play_again = "n"
 
         if (self.player.get_score() > 0):
+            print("   ")
             print("Good game! You finished with a score of {}".format(self.player.get_score()))   
         else: 
+            print("  ")
             print("I am sorry.  You have lost all your points and the game is over.")
                 
            
