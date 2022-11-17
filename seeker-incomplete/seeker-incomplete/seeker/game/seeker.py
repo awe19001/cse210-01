@@ -19,7 +19,9 @@ def __init__(self):
         Args:
             self (Seeker): An instance of Seeker.
         """
-       
+        self.location = random.randint(1, 1000)
+        self.distance = [0, 0] # start with two so get_message always works
+      
 # 3) Create the get_location(self) method. Use the following method comment.
         self.location = random.randint(1, 1000)
         """Gets the current location.
@@ -40,3 +42,5 @@ def move(self, location):
         distance = abs(self.location - location)
         self.distance.append(distance)
         self.location = location
+
+
