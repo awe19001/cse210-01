@@ -54,16 +54,16 @@ class Jumper:
               self.lives-=1
           """When win is official this prints Congratulations message"""
           if self.won == True:
-              print(f"Nice! you guessed {self.word}")
+              print(f"Nice! you guessed {self.word} ")
               print("")
           else:
-              print("Sorry, you're out!")
+              print("Try again, for the last time.")
               print(" ")
           """When loss is official this prints last picture"""
           if self.lives == 0:
               self.lose = True
           if self.lose == True:
               print(glider[4])
-              print("You've lost")
+              print("You've lost. You're out!")
               self.lost = False
               print(self.word)
