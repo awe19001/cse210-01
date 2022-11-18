@@ -3,12 +3,8 @@ from game.word import words
 from game.Shoot import glider
 
 
-
 """We need the logic to choose which picture gets displayed
 If they get a correct letter or a wrong one."""
-
-
-
 
 
 
