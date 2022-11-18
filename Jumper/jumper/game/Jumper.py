@@ -42,7 +42,7 @@ class Jumper:
       It checks the letter"""
       while self.won == False and self.lives > 0:
           self.show()
-          self.guess = input('guess letter: ')
+          self.guess = input('Guess a letter (a-z): ')
           self.guess = self.guess.upper()
           
           if self.guess == self.word:
@@ -54,10 +54,10 @@ class Jumper:
               self.lives-=1
           """When win is official this prints Congratulations message"""
           if self.won == True:
-              print(f"nice! you guessed {self.word}")
+              print(f"Nice! you guessed {self.word}")
               print("")
           else:
-              print("sorry, loser")
+              print("Sorry, you're out!")
               print(" ")
           """When loss is official this prints last picture"""
           if self.lives == 0:
