@@ -1,4 +1,4 @@
-from game.Jumper import Jumper
+from game.JumperMan import Jumper
 from game.word import words
 from game.console import Console
 

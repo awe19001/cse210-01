@@ -1,6 +1,6 @@
 import random
 from game.word import words
-from game.Shoot import glider
+from game.ParaChute import glider
 
 
 """We need the logic to choose which picture gets displayed
