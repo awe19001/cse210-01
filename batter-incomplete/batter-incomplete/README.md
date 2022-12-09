@@ -37,4 +37,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-* Matt Manley (manleym@byui.edu)
+* Joeverlyn Awe (joeverlyncapute@gmail.com)
